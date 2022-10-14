@@ -1,18 +1,17 @@
 <template>
   <div>
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <Counter :start="20" title="Entraron" />
-    <Counter />
+    <!-- <Counter :start="20" title="Entraron" /> -->
+    <Indecision />
   </div>
 </template>
 
 <script>
-import Counter from "./components/Counter.vue";
+import Indecision from "./components/Indecision.vue";
 
 export default {
   name: "App",
   components: {
-    Counter,
+    Indecision,
   },
 };
 </script>
@@ -23,7 +22,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: white;
+  margin-top: 5rem;
 }
 </style>
